@@ -1,0 +1,72 @@
+.body{
+    height: 100vh;
+}
+
+.background{
+    background-image: url(background.jpg);
+    background-repeat: none;
+    background-position: initial;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.title h1{
+    text-align: center;
+    font-size: 10vh;
+    color:orange;
+    margin: 10px;
+}
+.title h2{
+    text-align: center;
+    font-size: 7vh;
+    color: rgb(232, 243, 82)
+}
+
+.detail{
+    color: lightyellow;
+    font-style: italic;
+    margin: 10px;
+}
+.container{
+    position: relative;
+    overflow: auto;
+}
+.container h1{
+    margin: 20px;
+    font-size: 3vh;
+}
+
+.table {
+    color: maroon;
+    background-image: url(tabback.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+
+    
+}
+
+.table td{
+    border: 2px solid black;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.table th{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    border: black 2px solid;
+}
+
+.footer{
+    position: absolute;
+    left: 680px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+
+}
